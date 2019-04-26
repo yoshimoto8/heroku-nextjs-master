@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/mars/heroku-nextjs.git"
   },
+  "engines": {
+    "node": "8.11.3"
+  },
   "keywords": [
     "react",
     "ssr",
