@@ -1,0 +1,30 @@
+{
+  "name": "heroku-nextjs",
+  "version": "1.0.0",
+  "description": "Deploy Next.js server-side React apps to Heroku",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mars/heroku-nextjs.git"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "server-side-rendering"
+  ],
+  "author": "Mars Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mars/heroku-nextjs/issues"
+  },
+  "homepage": "https://github.com/mars/heroku-nextjs#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
