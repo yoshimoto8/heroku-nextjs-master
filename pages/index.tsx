@@ -4,7 +4,7 @@ import Link from "next/link";
 export default () => (
   <ul>
     <li>
-      <Link href="/a" as="/a">
+      <Link href="/" as="/">
         <a>a</a>
       </Link>
     </li>
