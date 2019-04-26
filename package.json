@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Deploy Next.js server-side React apps to Heroku",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p $PORT"
+    "dev": "nodemon",
+    "build": "next build && tsc && tsc --project tsconfig.server.json",
+    "start": "cross-env NODE_ENV=production node .next/server"
   },
   "repository": {
     "type": "git",
